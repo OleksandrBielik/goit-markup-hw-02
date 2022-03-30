@@ -7,66 +7,71 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Компания по созданию вебприложений" />
         <title>WebStudio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="header-main">
             <nav>
                 <ul>
-                    <li><a href="/"><span>Web</span>Studio</a></li>
+                    <li><a href="/" class="logo"><span>Web</span>Studio</a></li>
                     <li><a href="#">Студия</a></li>
-                    <li><a href="#">Портфолио</a></li>
+                    <li><a href="/portfolio.html">Портфолио</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
             <div class="contacts">
                 <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
                 </ul>
             </div>
         </header>
-        <main>
-            <section>
+        <main class="web-studio">
+            <section class="web-studio-order">
                 <h1>Эффективные решения для вашего бизнеса</h1>
                 <button type="button">Заказать услугу</button>
             </section>
-            <section>
+            <section class="web-studio-advantages">
                 <ul>
                     <li>
-                        <h3>Внимание к деталям</h3>
-                        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="title">Внимание к деталям</h3>
+                        <p class="description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li>
-                        <h3>Пунктуальность</h3>
-                        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="title">Пунктуальность</h3>
+                        <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                     <li>
-                        <h3>Планирование</h3>
-                        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="title">Планирование</h3>
+                        <p class="description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
                     <li>
-                        <h3>Современные технологии</h3>
-                        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="title">Современные технологии</h3>
+                        <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </section>
-            <section>
+            <section class="web-studio-activity">
                 <h2>Чем мы занимаемся</h2>
                 <ul>
-                    <li><a href="#"><img src="images/li_item1.jpg" alt="Разрабатываем приложения с 0" width="370"> </a></li>
-                    <li><a href="#"><img src="images/li_item2.jpg" alt="Адаптируем приложения под любые мобильные устройства" width="370"> </a></li>
-                    <li><a href="#"><img src="images/li_item3.jpg" alt="Адаптируем приложения под любые тачпад устройства" width="370"> </a></li>
+                    <li><a href="#"><img src="images/coding.jpg" alt="Разрабатываем приложения с 0" width="370"> </a></li>
+                    <li><a href="#"><img src="images/mobile.jpg" alt="Адаптируем приложения под любые мобильные устройства" width="370"> </a></li>
+                    <li><a href="#"><img src="images/touchpad.jpg" alt="Адаптируем приложения под любые тачпад устройства" width="370"> </a></li>
                 </ul>
             </section>
-            <section>
+            <section class="web-studio-team">
                 <h2>Наша команда</h2>
                 <ul>
                     <li>
                         <figure>
                             <img src="images/designer.jpg" alt="Дизайнер" width="270">
                             <figcaption>
-                                <p>Игорь Демьяненко</p>
-                                <p><span>Product Designer</span></p>
+                                <p class="title">Игорь Демьяненко</p>
+                                <p class="description">Product Designer</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -74,8 +79,8 @@
                         <figure>
                             <img src="images/frontend.jpg" alt="Фронтенд разработчик" width="270">
                             <figcaption>
-                                <p>Ольга Репина</p>
-                                <p><span>Frontend Developer</span></p>
+                                <p class="title">Ольга Репина</p>
+                                <p class="description"><span>Frontend Developer</span></p>
                             </figcaption>
                         </figure>
                     </li>
@@ -83,8 +88,8 @@
                         <figure>
                             <img src="images/marketing.jpg" alt="Маркетолог" width="270">
                             <figcaption>
-                                <p>Николай Тарасов</p>
-                                <p><span>Marketing</span></p>
+                                <p class="title">Николай Тарасов</p>
+                                <p class="description">Marketing</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -92,21 +97,23 @@
                         <figure>
                             <img src="images/ui_designer.jpg" alt="Дизайнер" width="270">
                             <figcaption>
-                                <p>Михаил Ермаков</p>
-                                <p><span>UI Designer</span></p>
+                                <p class="title">Михаил Ермаков</p>
+                                <p class="description">UI Designer</p>
                             </figcaption>
                         </figure>
                     </li>
                 </ul>
             </section>
         </main>
-        <footer>
-            <ul>
-                <li><a href="/"><span>Web</span>Studio</a></li>
-                <li><address>г. Киев, пр-т Леси Украинки, 26</address></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+        <footer class="footer-main">
+            <a href="/" class="logo"><span>Web</span>Studio</a>
+            <address>
+                <ul>
+                    <li>г. Киев, пр-т Леси Украинки, 26</li>
+                    <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
         </footer>
     </body>
 </html>
