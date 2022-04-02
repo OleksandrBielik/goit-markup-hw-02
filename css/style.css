@@ -88,16 +88,16 @@ a.logo:focus {
 
 .web-studio-order {
     background-color: var(--background-color-dark);
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 0.06em;
     text-align: center;
 }
 
 .web-studio-order h1 {
     color: var(--white-color);
     text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
 }
 
 .web-studio-order button {
