@@ -48,9 +48,7 @@ a.logo:focus {
     color: inherit;
 }
 
-main.portfolio {
-    background-color: var(--background-color-light);
-}
+
 .portfolio button {
     background-color: var(--background-color-section);
     font-size: 16px;
@@ -112,10 +110,7 @@ main.portfolio {
     text-align: center;
 }
 
-.web-studio-advantages,
-.web-studio-activity {
-    background-color: var(--background-color-light);
-}
+
 
 .web-studio-advantages .description {
     font-size: 14px;
