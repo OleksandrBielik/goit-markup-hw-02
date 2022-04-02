@@ -11,7 +11,10 @@
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
     color: var(--main-color);
-    background-color: var(--background-color-light);
+}
+
+header.header-main {
+    background-color: var(--white-color);
 }
 
 header a, 
@@ -45,6 +48,9 @@ a.logo:focus {
     color: inherit;
 }
 
+main.portfolio {
+    background-color: var(--background-color-light);
+}
 .portfolio button {
     background-color: var(--background-color-section);
     font-size: 16px;
@@ -104,6 +110,11 @@ a.logo:focus {
     line-height: 30px;
     letter-spacing: 0.06em;
     text-align: center;
+}
+
+.web-studio-advantages,
+.web-studio-activity {
+    background-color: var(--background-color-light);
 }
 
 .web-studio-advantages .description {
