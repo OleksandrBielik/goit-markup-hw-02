@@ -15,19 +15,21 @@ body {
 
 header.header-main {
     background-color: var(--white-color);
+    font-weight: 500;
 }
 
 header a, 
 footer a {
     text-decoration: none;
     color: var(--main-color);
-    font-family: Roboto;
     font-size: 14px;
-    font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
     text-align: left;
 }
+
+
+
 
 a.logo {
     font-family: 'Raleway', sans-serif;
@@ -181,4 +183,6 @@ footer .mail {
     color: var(--white-color);
     opacity: 60%;
 }
+
+
 
