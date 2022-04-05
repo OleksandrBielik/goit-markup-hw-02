@@ -60,8 +60,8 @@ footer a:focus {
     color: var(--background-color-active);
 }
 
-a.logo:hover,
-a.logo:focus {
+.logo:hover,
+.logo:focus {
     color: inherit;
 }
 
@@ -94,7 +94,7 @@ a.logo:focus {
     border-radius: 4px;
 }
 
-.portfolio-product-list .product-title {
+.portfolio-product-list .portfolio-product-list-item-title {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
@@ -106,7 +106,7 @@ a.logo:focus {
     display: none;
 }
 
-.portfolio-product-list .product-description {
+.portfolio-product-list .portfolio-product-list-item-description {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
@@ -114,7 +114,7 @@ a.logo:focus {
     color: var(--secondary-color);
 }
 
-.team-title {
+.web-studio-team-member-title {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
@@ -122,7 +122,7 @@ a.logo:focus {
     text-align: left;
 }
 
-.team-description {
+.web-studio-team-member-description {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -155,8 +155,6 @@ a.logo:focus {
 
 }
 
-
-
 .web-studio-advantages .advantage-description {
     font-size: 14px;
     line-height: 1.71;
@@ -184,15 +182,16 @@ a.logo:focus {
     text-align: center;
 }
 
-.web-studio-team .title {
+.web-studio-team .web-studio-team-member-title {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.18;
 }
 
-.web-studio-team .description {
+.web-studio-team .web-studio-team-member-description {
     font-size: 16px;
     line-height: 1.18;
+    color: var(--secondary-color);
 }
 
 footer.footer-main {
