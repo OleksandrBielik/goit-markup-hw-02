@@ -6,6 +6,9 @@
     --main-color: #212121;
     --secondary-color: #757575;
     --white-color: #FFFFFF;
+    --shadow-color-first: rgba(0, 0, 0, 0.12);
+    --shadow-color-second: rgba(0, 0, 0, 0.08);
+    --shadow-color-third: rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -23,7 +26,7 @@ footer a {
     text-decoration: none;
     color: var(--main-color);
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
 }
@@ -34,14 +37,14 @@ header a {
 
 header .mail,
 header .tel {
-    color: #757575;
+    color: var(--secondary-color)
 }
 
 a.logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: left;
 }
@@ -63,11 +66,12 @@ a.logo:focus {
 }
 
 
+
 .portfolio button {
     background-color: var(--background-color-section);
     font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -76,28 +80,51 @@ a.logo:focus {
 .portfolio button:focus {
     background-color: var(--background-color-active);
     color: var(--white-color);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08),
-    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 2px 0px var(--shadow-color-first),
+    0px 1px 2px 0px var(--shadow-color-second),
+    0px 3px 1px 0px var(--shadow-color-third);
 }
 
 .portfolio button,
 .web-studio button {
     cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    border-radius: 4px;
 }
 
-.title {
+.portfolio-product-list .product-title {
     font-size: 18px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     text-align: left;
 }
 
-.description {
+.portfolio-title {
+    display: none;
+}
+
+.portfolio-product-list .product-description {
     font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--secondary-color);
+}
+
+.team-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.team-description {
+    font-size: 16px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     text-align: left;
     color: var(--secondary-color);
@@ -113,7 +140,7 @@ a.logo:focus {
     text-transform: uppercase;
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
 }
 
@@ -122,28 +149,30 @@ a.logo:focus {
     color: var(--white-color);
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     text-align: center;
+
 }
 
 
 
-.web-studio-advantages .description {
+.web-studio-advantages .advantage-description {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    color: var(--secondary-color);
 }
 
-.web-studio-advantages .title {
+.web-studio-advantages .advantage-title {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
 .web-studio h2 {
     font-size: 36px;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -158,12 +187,12 @@ a.logo:focus {
 .web-studio-team .title {
     font-size: 16px;
     font-weight: 500;
-    line-height: 19px;
+    line-height: 1.18;
 }
 
 .web-studio-team .description {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
 }
 
 footer.footer-main {
@@ -176,10 +205,9 @@ footer .logo {
 }
 
 footer address {
-    font-family: Roboto;
     font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
 }
